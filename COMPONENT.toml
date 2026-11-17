@@ -3,12 +3,12 @@ name = "SigmaOS-aur"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "aur component"
+description = "AUR (Arch User Repository) integration component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
